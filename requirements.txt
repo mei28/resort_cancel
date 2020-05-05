@@ -14,3 +14,6 @@ seaborn
 jupyter
 flake8
 autopep8
+pyarrow 
+ipykernel
+wheel
