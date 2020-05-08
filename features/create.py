@@ -68,7 +68,8 @@ class Family_size(Feature):
         self.train['family_size'] = train['adults'] + \
             train['children']+train['babies']
         self.test['family_size'] = test['adults'] + \
-            train['children']+test['babies']
+            test['children']+test['babies']
+
 
 
 class Meal(Feature):
