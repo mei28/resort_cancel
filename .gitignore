@@ -10,3 +10,5 @@ features/importances/*.png
 *.egg-info
 
 .resort
+
+*.log

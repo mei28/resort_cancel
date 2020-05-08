@@ -1,4 +1,5 @@
 # %%
+from utils import load_datasets, load_target
 import pandas as pd
 import matplotlib.pyplot as plt
 import pandas_profiling as pdp
@@ -32,3 +33,8 @@ train_profile.to_file("../features/importances/train_profile.html")
 
 # %%
 print(train['previous_cancellations'].describe())
+
+# %%
+print(test.shape)
+# %%
+
